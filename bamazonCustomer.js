@@ -94,7 +94,7 @@ function buyItem() {
     }, function(err, res){})
 };
 
-//Allows the user to place a new order or end the connection
+// Function for user to keep shopping or exit the store.
 function newOrder(){
 	inquirer.prompt([{
 		type: 'confirm',
