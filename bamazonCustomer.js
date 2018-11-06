@@ -20,3 +20,7 @@ var connection = mysql.createConnection({
     console.log("connected as id " + connection.threadId + "\n");
     startShopping();
   });
+
+  function startShopping() {
+      
+  };
